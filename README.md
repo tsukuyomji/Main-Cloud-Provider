@@ -22,13 +22,13 @@ REPLACE THIS TEXT WITH A LINK TO YOUR CARD WALL
 
 1. Install Node Version Manager (NVM)
    ```
-   brew install nvm
+   brew install nvm - DONE
    ```
    Then follow the instructions to update your `~/.bash_profile`.
 2. Open a new terminal
 3. Install the latest version of [Node.js](https://nodejs.org/en/), currently 23.
    ```
-   nvm install 23
+   nvm install 23 - DONE
    ```
 
 ### Set up your project
@@ -38,13 +38,13 @@ REPLACE THIS TEXT WITH A LINK TO YOUR CARD WALL
 3. Clone your repo to your local machine
 4. Install Node.js dependencies
    ```
-   npm install
+   npm install - DONE
    ```
-5. Install an ESLint plugin for your editor. For example: [linter-eslint](https://github.com/AtomLinter/linter-eslint) for Atom.
+5. Install an ESLint plugin for your editor. For example: [linter-eslint](https://github.com/AtomLinter/linter-eslint) for Atom. - DONE
 6. Install MongoDB
    ```
-   brew tap mongodb/brew
-   brew install mongodb-community@7.0
+   brew tap mongodb/brew - DONE
+   brew install mongodb-community@7.0 - DONE
    ```
    *Note:* If you see a message that says `If you need to have mongodb-community@7.0 first in your PATH, run:`, follow the instruction. Restart your terminal after this.
 7. Start MongoDB
