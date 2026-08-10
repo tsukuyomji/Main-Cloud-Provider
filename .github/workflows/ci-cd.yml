@@ -57,7 +57,7 @@ jobs:
       - name: Trigger CodeDeploy deployment
         run: |
           aws deploy create-deployment \
-            --application-name ${{ secrets
+            --application-name ${{ secrets.CODEDEPLOY_APP_NAME }} \
             --deployment-group-name ${{ secrets.CODEDEPLOY_GROUP_NAME }} \
-            --s3-location bucket=${{ secre${{ github.sha }}.zip,bundleType=zip \
+            --s3-location bucket=${{ secrets.S3_BUCKET }},key=revision-${{ github.sha }}.zip,bundleType=zip \
             --description "Deploy commit ${{ github.sha }}"
